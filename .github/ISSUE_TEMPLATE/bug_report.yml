@@ -26,13 +26,13 @@ body:
       description: Which part of the system is affected?
       options:
         - Gateway / orchestration
+        - Register / Login
+        - Multi-tenant
         - Agent runtime
-        - Multi-tenant / RBAC
+        - LLM provider / model routing
         - Channel integration (Feishu, WeChat, etc.)
         - Control UI (web dashboard)
-        - LLM provider / model routing
         - Database / storage
-        - Auth / JWT
         - CLI
         - Other
     validations:
@@ -72,6 +72,12 @@ body:
       placeholder: No reply is posted; the gateway log shows `channel handler error` at 14:23:08 UTC.
     validations:
       required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, screenshots, and evidence
+      description: Include redacted logs, screenshots, or recordings that support the answers above. Do not include API keys, tokens, or passwords.
+      render: shell
   - type: input
     id: version
     attributes:
@@ -79,7 +85,7 @@ body:
       description: Exact version or commit hash.
       placeholder: 0.2.0 / commit abc1234
     validations:
-      required: true
+      required: false
   - type: input
     id: os
     attributes:
@@ -87,7 +93,7 @@ body:
       description: OS and version where this occurs.
       placeholder: Ubuntu 24.04 / Windows 11 / macOS 15.4
     validations:
-      required: true
+      required: false
   - type: input
     id: deploy_method
     attributes:
@@ -100,12 +106,6 @@ body:
       label: Database
       description: Which database backend is in use.
       placeholder: SQLite / PostgreSQL 16
-  - type: textarea
-    id: logs
-    attributes:
-      label: Logs, screenshots, and evidence
-      description: Include redacted logs, screenshots, or recordings that support the answers above. Do not include API keys, tokens, or passwords.
-      render: shell
   - type: textarea
     id: impact
     attributes:

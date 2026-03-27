@@ -15,15 +15,14 @@ body:
       description: Which part of the system does this feature relate to?
       options:
         - Gateway / orchestration
+        - Register / Login
+        - Multi-tenant
         - Agent runtime
-        - Multi-tenant / RBAC
+        - LLM provider / model routing
         - Channel integration (Feishu, WeChat, etc.)
         - Control UI (web dashboard)
-        - LLM provider / model routing
         - Database / storage
-        - Auth / JWT
         - CLI
-        - Platform administration
         - Other
     validations:
       required: true
@@ -74,7 +73,7 @@ body:
         Frequency: Monthly (at billing cycle boundaries)
         Consequence: Unexpected agent downtime when quota is silently exhausted
     validations:
-      required: true
+      required: false
   - type: textarea
     id: evidence
     attributes:
