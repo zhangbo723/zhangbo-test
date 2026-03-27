@@ -4,127 +4,19 @@ title: "[Bug]: "
 labels:
   - bug
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for filing this report. Keep every answer concise, reproducible, and grounded in observed evidence.
-  - type: dropdown
-    id: bug_type
-    attributes:
-      label: Bug type
-      description: Choose the category that best matches this report.
-      options:
-        - Regression (worked before, now fails)
-        - Crash (process/app exits or hangs)
-        - Behavior bug (incorrect output/state without crash)
-    validations:
-      required: true
-  - type: dropdown
-    id: component
-    attributes:
-      label: Affected component
-      description: Which part of the system is affected?
-      options:
-        - Gateway / orchestration
-        - Register / Login
-        - Multi-tenant
-        - Agent runtime
-        - LLM provider / model routing
-        - Channel integration (Feishu, WeChat, etc.)
-        - Control UI (web dashboard)
-        - Database / storage
-        - CLI
-        - Other
-    validations:
-      required: true
   - type: textarea
     id: summary
     attributes:
       label: Summary
       description: One-sentence statement of what is broken.
-      placeholder: After upgrading to 0.2.0, Feishu channel messages are not being forwarded to the agent.
-    validations:
-      required: true
-  - type: textarea
-    id: repro
-    attributes:
-      label: Steps to reproduce
-      description: Provide the shortest deterministic repro path.
       placeholder: |
-        1. Configure a Feishu channel with a tenant agent.
-        2. Send a message in the Feishu group.
-        3. Observe no agent response; gateway log shows `channel handler error`.
+        Provide a detailed description of the bug, including the following content
+        1. Operation steps:
+        2. expected result:
+        3. Actual results:
+        4. operating system:
+        5. EnClaws version:
+        6. database version:
+        7. Log, screenshot:
     validations:
       required: true
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected behavior
-      description: State the expected result with a concrete reference (prior version, docs, etc.).
-      placeholder: In 0.1.0, the agent responded in the same Feishu group within 3 seconds.
-    validations:
-      required: true
-  - type: textarea
-    id: actual
-    attributes:
-      label: Actual behavior
-      description: Describe only the observed result, including user-visible errors and cited evidence.
-      placeholder: No reply is posted; the gateway log shows `channel handler error` at 14:23:08 UTC.
-    validations:
-      required: true
-  - type: textarea
-    id: logs
-    attributes:
-      label: Logs, screenshots, and evidence
-      description: Include redacted logs, screenshots, or recordings that support the answers above. Do not include API keys, tokens, or passwords.
-      render: shell
-  - type: input
-    id: version
-    attributes:
-      label: EnClaws version
-      description: Exact version or commit hash.
-      placeholder: 0.2.0 / commit abc1234
-    validations:
-      required: false
-  - type: input
-    id: os
-    attributes:
-      label: Operating system
-      description: OS and version where this occurs.
-      placeholder: Ubuntu 24.04 / Windows 11 / macOS 15.4
-    validations:
-      required: false
-  - type: input
-    id: deploy_method
-    attributes:
-      label: Deployment method
-      description: How EnClaws is deployed.
-      placeholder: pnpm dev / docker compose / production build
-  - type: input
-    id: database
-    attributes:
-      label: Database
-      description: Which database backend is in use.
-      placeholder: SQLite / PostgreSQL 16
-  - type: textarea
-    id: impact
-    attributes:
-      label: Impact and severity
-      description: |
-        Explain who is affected, how severe it is, and how often it happens.
-        Include:
-        - Affected tenants/users/channels
-        - Severity (annoying, blocks workflow, data risk, etc.)
-        - Frequency (always/intermittent/edge case)
-        - Consequence (missed messages, failed auth, extra cost, etc.)
-      placeholder: |
-        Affected: All Feishu channel users on tenant "acme-corp"
-        Severity: High (blocks all Feishu message handling)
-        Frequency: 4/4 observed attempts
-        Consequence: Agents do not respond in Feishu groups
-  - type: textarea
-    id: additional_information
-    attributes:
-      label: Additional information
-      description: Any remaining context. If this is a regression, include the last known good and first known bad versions.
-      placeholder: Last known good version 0.1.0, first known bad version 0.2.0. Workaround is to use WebSocket RPC directly.
