@@ -18,3 +18,8 @@ timeline:
     mentions:
     - tank
     author: zhangbo
+  - created_at: '2026-05-06T19:20:03+08:00'
+    body: 整体的产品设计方案，已经细化下来了，请再看一下，目前堵点主要是skill，有些im平台是否能拿到聊天信息不清楚，生成对应平台的帖子自动回复做不到等。
+    mentions:
+    - tank
+    author: zhangbo
