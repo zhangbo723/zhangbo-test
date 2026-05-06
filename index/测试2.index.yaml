@@ -2,10 +2,10 @@ version: 1
 matter:
   id: 测试2
   title: 测试2
-  current_status: executing
+  current_status: finished
   owner: tank
   created_at: '2026-05-06T19:48:14+08:00'
-  updated_at: '2026-05-06T20:59:37+08:00'
+  updated_at: '2026-05-06T21:00:14+08:00'
 timeline:
 - file: discussions/enclaws/测试2/001_zhangbo_think_669e52.md
   created_at: '2026-05-06T19:48:14+08:00'
@@ -104,3 +104,13 @@ timeline:
   - target: discussions/enclaws/测试2/005_zhangbo_act_a9d57d.md
     judgement: passed
     comment: asd
+- file: discussions/enclaws/测试2/007_zhangbo_result_5ffc6b.md
+  created_at: '2026-05-06T21:00:14+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: result
+  summary: 此文件仅为测试占位内容，未包含实质性的推进或结论信息。
+  outcome: finished
+  status_change:
+    from: executing
+    to: finished
