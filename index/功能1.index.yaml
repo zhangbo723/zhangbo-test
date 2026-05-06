@@ -27,3 +27,9 @@ timeline:
   type: think
   summary: 初始占位内容，待后续补充具体思考与详细讨论。
   quote: discussions/enclaws/功能1/002_zhangbo_think_96ad92.md
+  comments:
+  - created_at: '2026-05-06T20:14:40+08:00'
+    body: asdas
+    mentions:
+    - tank
+    author: zhangbo
