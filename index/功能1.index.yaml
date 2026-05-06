@@ -1,0 +1,15 @@
+version: 1
+matter:
+  id: 功能1
+  title: 功能1
+  current_status: planning
+  owner: zhangbo
+  created_at: '2026-05-06T20:08:54+08:00'
+  updated_at: '2026-05-06T20:08:54+08:00'
+timeline:
+- file: discussions/enclaws/功能1/001_zhangbo_think_dc1113.md
+  created_at: '2026-05-06T20:08:54+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 发起对「功能1」的专项讨论，梳理功能定义、需求来源、实现方案等关键问题，为后续决策和推进奠定基础。
