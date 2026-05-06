@@ -2,10 +2,10 @@ version: 1
 matter:
   id: 测试2
   title: 测试2
-  current_status: finished
+  current_status: reviewed
   owner: tank
   created_at: '2026-05-06T19:48:14+08:00'
-  updated_at: '2026-05-06T21:00:53+08:00'
+  updated_at: '2026-05-06T21:02:30+08:00'
 timeline:
 - file: discussions/enclaws/测试2/001_zhangbo_think_669e52.md
   created_at: '2026-05-06T19:48:14+08:00'
@@ -120,3 +120,12 @@ timeline:
   owner: zhangbo
   type: insight
   summary: 记录了首次复盘的相关情况。
+- file: discussions/enclaws/测试2/009_zhangbo_insight_52fe67.md
+  created_at: '2026-05-06T21:02:30+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: insight
+  summary: 该文件仅为测试占位内容，未包含任何有效信息、推进或结论。
+  status_change:
+    from: finished
+    to: reviewed
