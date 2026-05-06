@@ -2,10 +2,10 @@ version: 1
 matter:
   id: 测试2
   title: 测试2
-  current_status: planning
+  current_status: executing
   owner: tank
   created_at: '2026-05-06T19:48:14+08:00'
-  updated_at: '2026-05-06T19:48:14+08:00'
+  updated_at: '2026-05-06T19:50:18+08:00'
 timeline:
 - file: discussions/enclaws/测试2/001_zhangbo_think_669e52.md
   created_at: '2026-05-06T19:48:14+08:00'
@@ -13,3 +13,13 @@ timeline:
   owner: zhangbo
   type: think
   summary: 发起测试2 matter，用于验证创建流程与展示效果，待补充具体议题后推进。
+- file: discussions/enclaws/测试2/002_zhangbo_act_3df824.md
+  created_at: '2026-05-06T19:50:18+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: act
+  summary: 添加测试数据验证文件创建功能，当前仅作占位使用，无实质性进展。
+  quote: discussions/enclaws/测试2/001_zhangbo_think_669e52.md
+  status_change:
+    from: planning
+    to: executing
