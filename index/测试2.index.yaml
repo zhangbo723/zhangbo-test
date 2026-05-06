@@ -1,0 +1,15 @@
+version: 1
+matter:
+  id: 测试2
+  title: 测试2
+  current_status: planning
+  owner: tank
+  created_at: '2026-05-06T19:48:14+08:00'
+  updated_at: '2026-05-06T19:48:14+08:00'
+timeline:
+- file: discussions/enclaws/测试2/001_zhangbo_think_669e52.md
+  created_at: '2026-05-06T19:48:14+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 发起测试2 matter，用于验证创建流程与展示效果，待补充具体议题后推进。
