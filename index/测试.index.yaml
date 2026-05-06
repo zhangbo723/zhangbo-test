@@ -13,6 +13,12 @@ timeline:
   owner: zhangbo
   type: think
   summary: 本文为测试占位内容，暂无实质讨论或明确结论。
+  comments:
+  - created_at: '2026-05-06T19:10:09+08:00'
+    body: '111'
+    mentions:
+    - tank
+    author: zhangbo
 - type: owner_change
   created_at: '2026-05-06T17:25:55+08:00'
   actor: zhangbo
