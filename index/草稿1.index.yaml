@@ -2,10 +2,10 @@ version: 1
 matter:
   id: 草稿1
   title: 草稿1
-  current_status: executing
+  current_status: finished
   owner: zhangbo
   created_at: '2026-05-06T20:54:54+08:00'
-  updated_at: '2026-05-07T20:22:59+08:00'
+  updated_at: '2026-05-07T21:24:14+08:00'
   visibility:
     mode: public
     roles: []
@@ -78,3 +78,13 @@ timeline:
   - target: discussions/enclaws/草稿1/003_tank_act_fcd144.md
     judgement: passed
     comment: 拒绝
+- file: discussions/enclaws/草稿1/007_zhangbo_result_2d3b1f.md
+  created_at: '2026-05-07T21:24:14+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: result
+  summary: 验证通过，输出结果为 123。
+  outcome: finished
+  status_change:
+    from: executing
+    to: finished
