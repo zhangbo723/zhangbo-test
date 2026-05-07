@@ -1,0 +1,19 @@
+version: 1
+matter:
+  id: 新ui测试
+  title: 新ui测试
+  current_status: planning
+  owner: zhangbo
+  visibility:
+    mode: public
+    roles: []
+    user_ids: []
+  created_at: '2026-05-07T22:33:16+08:00'
+  updated_at: '2026-05-07T22:33:16+08:00'
+timeline:
+- file: discussions/enclaws/新ui测试/001_zhangbo_think_11a19f.md
+  created_at: '2026-05-07T22:33:16+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 围绕新 UI 测试展开讨论，明确测试目的、核心关注维度及需团队协同对齐的关键问题
