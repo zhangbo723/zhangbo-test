@@ -1,0 +1,19 @@
+version: 1
+matter:
+  id: 测试555
+  title: 测试555
+  current_status: planning
+  owner: zhangbo
+  visibility:
+    mode: public
+    roles: []
+    user_ids: []
+  created_at: '2026-05-08T17:51:38+08:00'
+  updated_at: '2026-05-08T17:51:38+08:00'
+timeline:
+- file: discussions/enclaws/测试555/001_zhangbo_think_259801.md
+  created_at: '2026-05-08T17:51:38+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 发起测试性讨论（测试555），验证 matter 创建流程和 enclaws 分类的协作体验，为后续正式讨论积累经验。
