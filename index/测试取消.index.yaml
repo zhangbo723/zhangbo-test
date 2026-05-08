@@ -2,14 +2,14 @@ version: 1
 matter:
   id: 测试取消
   title: 测试取消
-  current_status: executing
+  current_status: cancelled
   owner: zhangbo
   visibility:
     mode: public
     roles: []
     user_ids: []
   created_at: '2026-05-08T09:24:46+08:00'
-  updated_at: '2026-05-08T09:25:31+08:00'
+  updated_at: '2026-05-08T09:26:11+08:00'
 timeline:
 - file: discussions/enclaws/测试取消/001_zhangbo_think_2b4d77.md
   created_at: '2026-05-08T09:24:46+08:00'
@@ -27,3 +27,13 @@ timeline:
   status_change:
     from: planning
     to: executing
+- file: discussions/enclaws/测试取消/003_zhangbo_result_378684.md
+  created_at: '2026-05-08T09:26:11+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: result
+  summary: 确认测试已取消。
+  outcome: cancelled
+  status_change:
+    from: executing
+    to: cancelled
