@@ -1,0 +1,19 @@
+version: 1
+matter:
+  id: 测试取消
+  title: 测试取消
+  current_status: planning
+  owner: zhangbo
+  visibility:
+    mode: public
+    roles: []
+    user_ids: []
+  created_at: '2026-05-08T09:24:46+08:00'
+  updated_at: '2026-05-08T09:24:46+08:00'
+timeline:
+- file: discussions/enclaws/测试取消/001_zhangbo_think_2b4d77.md
+  created_at: '2026-05-08T09:24:46+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 讨论取消测试的可行性、影响范围及替代质量保障方案，供团队评估决策。
