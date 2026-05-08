@@ -17,3 +17,8 @@ timeline:
   owner: zhangbo
   type: think
   summary: 发起测试性讨论（测试555），验证 matter 创建流程和 enclaws 分类的协作体验，为后续正式讨论积累经验。
+  annotations:
+  - created_at: '2026-05-08T17:56:53+08:00'
+    type: evaluation
+    author: zhangbo
+    body: '231'
