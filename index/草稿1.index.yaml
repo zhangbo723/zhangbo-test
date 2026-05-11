@@ -62,3 +62,10 @@ timeline:
   type: think
   summary: 测试78
   quote: discussions/enclaws/草稿1/007_zhangbo_think_274ff9.md
+  annotations:
+  - created_at: '2026-05-11T13:56:49+08:00'
+    type: evaluation
+    author: zhangbo
+    body: '111'
+    targets:
+    - tank
