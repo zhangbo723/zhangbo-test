@@ -101,3 +101,10 @@ timeline:
     targets:
     - tank
     author: tank
+  annotations:
+  - created_at: '2026-05-11T14:04:59+08:00'
+    type: evaluation
+    author: tank
+    body: '123'
+    targets:
+    - zhangbo
