@@ -5,7 +5,7 @@ matter:
   current_status: planning
   owner: zhangbo
   created_at: '2026-05-06T20:54:54+08:00'
-  updated_at: '2026-05-11T20:13:43+08:00'
+  updated_at: '2026-05-11T20:16:51+08:00'
 timeline:
 - file: discussions/enclaws/草稿1/001_zhangbo_think_bd9399.md
   created_at: '2026-05-06T20:54:54+08:00'
@@ -265,4 +265,11 @@ timeline:
   owner: zhangbo
   type: think
   summary: '123'
+  quote: discussions/enclaws/草稿1/001_zhangbo_think_bd9399.md
+- file: discussions/enclaws/草稿1/023_zhangbo_think_0dc9ef.md
+  created_at: '2026-05-11T20:16:51+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: asd
   quote: discussions/enclaws/草稿1/001_zhangbo_think_bd9399.md
