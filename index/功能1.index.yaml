@@ -5,7 +5,7 @@ matter:
   current_status: planning
   owner: zhangbo
   created_at: '2026-05-06T20:08:54+08:00'
-  updated_at: '2026-05-06T20:14:20+08:00'
+  updated_at: '2026-05-11T19:20:57+08:00'
 timeline:
 - file: discussions/enclaws/功能1/001_zhangbo_think_dc1113.md
   created_at: '2026-05-06T20:08:54+08:00'
@@ -27,19 +27,26 @@ timeline:
   type: think
   summary: 初始占位内容，待后续补充具体思考与详细讨论。
   quote: discussions/enclaws/功能1/002_zhangbo_think_96ad92.md
-  comments:
+  mentions:
   - created_at: '2026-05-06T20:14:40+08:00'
     body: asdas
-    mentions:
-    - tank
     author: zhangbo
+    targets:
+    - tank
   - created_at: '2026-05-06T20:16:42+08:00'
     body: '666'
-    mentions:
-    - tank
     author: zhangbo
+    targets:
+    - tank
   - created_at: '2026-05-06T20:17:00+08:00'
     body: '76567'
-    mentions:
-    - tank
     author: zhangbo
+    targets:
+    - tank
+- file: discussions/enclaws/功能1/004_zhangbo_act_95fc25.md
+  created_at: '2026-05-11T19:20:57+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: act
+  summary: 开始执行
+  quote: discussions/enclaws/功能1/003_zhangbo_think_3060c9.md
