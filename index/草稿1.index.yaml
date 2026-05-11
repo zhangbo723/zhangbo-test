@@ -231,6 +231,10 @@ timeline:
   type: think
   summary: '123'
   quote: discussions/enclaws/草稿1/004_zhangbo_think_c13044.md
+  invalidated: true
+  invalidated_at: '2026-05-11T20:42:07+08:00'
+  invalidated_reason: misposted
+  invalidated_by: zhangbo
 - file: discussions/enclaws/草稿1/018_zhangbo_think_335eb5.md
   created_at: '2026-05-11T20:08:30+08:00'
   creator: zhangbo
@@ -273,3 +277,8 @@ timeline:
   type: think
   summary: asd
   quote: discussions/enclaws/草稿1/001_zhangbo_think_bd9399.md
+- creator: zhangbo
+  created_at: '2026-05-11T20:42:07+08:00'
+  quote: discussions/enclaws/草稿1/017_zhangbo_think_7fecf0.md
+  reason: misposted
+  summary: '123'
