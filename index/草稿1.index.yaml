@@ -5,7 +5,7 @@ matter:
   current_status: planning
   owner: zhangbo
   created_at: '2026-05-06T20:54:54+08:00'
-  updated_at: '2026-05-11T14:00:26+08:00'
+  updated_at: '2026-05-11T14:02:13+08:00'
 timeline:
 - file: discussions/enclaws/草稿1/001_zhangbo_think_bd9399.md
   created_at: '2026-05-06T20:54:54+08:00'
@@ -89,3 +89,15 @@ timeline:
   type: think
   summary: 应要求提供一篇约500字的悬疑微小说，讲述女主在末班地铁上偶遇失踪父亲的奇幻故事。
   quote: discussions/enclaws/草稿1/006_zhangbo_think_eef10c.md
+- file: discussions/enclaws/草稿1/011_tank_act_984b18.md
+  created_at: '2026-05-11T14:02:13+08:00'
+  creator: tank
+  owner: tank
+  type: act
+  summary: 记录主角搭乘末班地铁时触发时空回溯机制，车票突变为前往“过去”的凭证，并在车窗倒影中重现失踪父亲身影的关键行动过程。
+  quote: discussions/enclaws/草稿1/010_tank_think_45c68a.md
+  mentions:
+  - body: '123'
+    targets:
+    - tank
+    author: tank
