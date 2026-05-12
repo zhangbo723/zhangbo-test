@@ -22,62 +22,62 @@ matter:
   created_at: '2026-05-12T16:05:33+08:00'
   updated_at: '2026-05-12T17:21:49+08:00'
 timeline:
-- file: discussions/enclaws/测试333666/001_zhangbo_think_35f2be.md
+- file: discussions/pivot/测试333666/001_zhangbo_think_35f2be.md
   created_at: '2026-05-12T16:05:33+08:00'
   creator: zhangbo
   owner: zhangbo
   type: think
   summary: 测试333666
-- file: discussions/enclaws/测试333666/002_zhangbo_act_4c036d.md
+- file: discussions/pivot/测试333666/002_zhangbo_act_4c036d.md
   created_at: '2026-05-12T16:07:53+08:00'
   creator: zhangbo
   owner: zhangbo
   type: act
   summary: '123'
-  quote: discussions/enclaws/测试333666/001_zhangbo_think_35f2be.md
+  quote: discussions/pivot/测试333666/001_zhangbo_think_35f2be.md
   status_change:
     from: planning
     to: executing
   verifications_received:
-  - verify_file: discussions/enclaws/测试333666/003_zhangbo_verify_b01981.md
+  - verify_file: discussions/pivot/测试333666/003_zhangbo_verify_b01981.md
     verified_at: '2026-05-12T16:08:21+08:00'
     verified_by: zhangbo
     judgement: passed
     comment: '123'
-- file: discussions/enclaws/测试333666/003_zhangbo_verify_b01981.md
+- file: discussions/pivot/测试333666/003_zhangbo_verify_b01981.md
   created_at: '2026-05-12T16:08:21+08:00'
   creator: zhangbo
   owner: zhangbo
   type: verify
   summary: '123'
-  quote: discussions/enclaws/测试333666/002_zhangbo_act_4c036d.md
+  quote: discussions/pivot/测试333666/002_zhangbo_act_4c036d.md
   verifications:
-  - target: discussions/enclaws/测试333666/002_zhangbo_act_4c036d.md
+  - target: discussions/pivot/测试333666/002_zhangbo_act_4c036d.md
     judgement: passed
     comment: '123'
   invalidated: false
   invalidated_at: '2026-05-12T17:11:06+08:00'
   invalidated_reason: misposted
   invalidated_by: zhangbo
-- file: discussions/enclaws/测试333666/004_zhangbo_result_ddf57d.md
+- file: discussions/pivot/测试333666/004_zhangbo_result_ddf57d.md
   created_at: '2026-05-12T16:08:35+08:00'
   creator: zhangbo
   owner: zhangbo
   type: result
   summary: '123'
-  quote: discussions/enclaws/测试333666/003_zhangbo_verify_b01981.md
+  quote: discussions/pivot/测试333666/003_zhangbo_verify_b01981.md
   outcome: finished
   status_change:
     from: executing
     to: finished
 - creator: zhangbo
   created_at: '2026-05-12T17:11:06+08:00'
-  quote: discussions/enclaws/测试333666/003_zhangbo_verify_b01981.md
+  quote: discussions/pivot/测试333666/003_zhangbo_verify_b01981.md
   reason: misposted
   summary: '123'
 - creator: zhangbo
   created_at: '2026-05-12T17:15:47+08:00'
-  quote: discussions/enclaws/测试333666/003_zhangbo_verify_b01981.md
+  quote: discussions/pivot/测试333666/003_zhangbo_verify_b01981.md
   reason: restored
   summary: '123'
 - type: owner_change
