@@ -2,7 +2,7 @@ version: 1
 matter:
   id: 测试直接act
   title: 测试直接act
-  current_status: executing
+  current_status: finished
   owner: zhangbo
   workgroup:
   - user_id: zhangbo
@@ -15,7 +15,7 @@ matter:
     roles: []
     user_ids: []
   created_at: '2026-05-12T15:02:46+08:00'
-  updated_at: '2026-05-12T15:40:20+08:00'
+  updated_at: '2026-05-12T15:41:19+08:00'
 timeline:
 - file: discussions/pivot/测试直接act/001_zhangbo_act_0c4693.md
   created_at: '2026-05-12T15:02:46+08:00'
@@ -88,3 +88,14 @@ timeline:
   status_change:
     from: planning
     to: executing
+- file: discussions/pivot/测试直接act/008_zhangbo_result_bf4af9.md
+  created_at: '2026-05-12T15:41:19+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: result
+  summary: 完成
+  quote: discussions/pivot/测试直接act/007_zhangbo_act_a63520.md
+  outcome: finished
+  status_change:
+    from: executing
+    to: finished
