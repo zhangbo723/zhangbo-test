@@ -50,6 +50,10 @@ timeline:
   - target: discussions/enclaws/测试333666/002_zhangbo_act_4c036d.md
     judgement: passed
     comment: '123'
+  invalidated: true
+  invalidated_at: '2026-05-12T17:11:06+08:00'
+  invalidated_reason: misposted
+  invalidated_by: zhangbo
 - file: discussions/enclaws/测试333666/004_zhangbo_result_ddf57d.md
   created_at: '2026-05-12T16:08:35+08:00'
   creator: zhangbo
@@ -61,3 +65,8 @@ timeline:
   status_change:
     from: executing
     to: finished
+- creator: zhangbo
+  created_at: '2026-05-12T17:11:06+08:00'
+  quote: discussions/enclaws/测试333666/003_zhangbo_verify_b01981.md
+  reason: misposted
+  summary: '123'
