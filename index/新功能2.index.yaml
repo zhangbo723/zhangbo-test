@@ -2,10 +2,10 @@ version: 1
 matter:
   id: 新功能2
   title: 新功能2
-  current_status: planning
+  current_status: paused
   owner: zhangbo
   created_at: '2026-05-06T17:23:59+08:00'
-  updated_at: '2026-05-06T17:23:59+08:00'
+  updated_at: '2026-05-12T14:33:54+08:00'
 timeline:
 - file: discussions/enclaws/新功能2/001_zhangbo_think_a05c9c.md
   created_at: '2026-05-06T17:23:59+08:00'
@@ -13,18 +13,27 @@ timeline:
   owner: zhangbo
   type: think
   summary: 围绕「新功能 2」发起初步讨论，梳理功能目标与方案方向，待 review 反馈后推进
-  comments:
+  mentions:
   - body: 测试
-    mentions:
-    - tank
     author: zhangbo
+    targets:
+    - tank
   - created_at: '2026-05-06T19:20:03+08:00'
     body: 整体的产品设计方案，已经细化下来了，请再看一下，目前堵点主要是skill，有些im平台是否能拿到聊天信息不清楚，生成对应平台的帖子自动回复做不到等。
-    mentions:
-    - tank
     author: zhangbo
+    targets:
+    - tank
   - created_at: '2026-05-06T19:36:21+08:00'
     body: aaa
-    mentions:
-    - tank
     author: zhangbo
+    targets:
+    - tank
+- file: discussions/enclaws/新功能2/002_zhangbo_think_61ea78.md
+  created_at: '2026-05-12T14:33:54+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: '123'
+  status_change:
+    from: planning
+    to: paused
