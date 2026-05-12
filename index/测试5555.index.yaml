@@ -2,10 +2,10 @@ version: 1
 matter:
   id: 测试5555
   title: 测试5555
-  current_status: executing
+  current_status: paused
   owner: zhangbo
   created_at: '2026-05-06T20:18:15+08:00'
-  updated_at: '2026-05-12T09:28:03+08:00'
+  updated_at: '2026-05-12T14:41:42+08:00'
 timeline:
 - file: discussions/enclaws/测试5555/001_zhangbo_think_9a921b.md
   created_at: '2026-05-06T20:18:15+08:00'
@@ -90,3 +90,12 @@ timeline:
   created_at: '2026-05-12T09:51:10+08:00'
   quote: discussions/enclaws/测试5555/006_zhangbo_act_01507b.md
   reason: restored
+- file: discussions/enclaws/测试5555/008_zhangbo_think_fe1349.md
+  created_at: '2026-05-12T14:41:42+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: '123'
+  status_change:
+    from: executing
+    to: paused
