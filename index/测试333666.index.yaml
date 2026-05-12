@@ -15,7 +15,7 @@ matter:
     roles: []
     user_ids: []
   created_at: '2026-05-12T16:05:33+08:00'
-  updated_at: '2026-05-12T16:07:53+08:00'
+  updated_at: '2026-05-12T16:08:21+08:00'
 timeline:
 - file: discussions/enclaws/测试333666/001_zhangbo_think_35f2be.md
   created_at: '2026-05-12T16:05:33+08:00'
@@ -33,3 +33,20 @@ timeline:
   status_change:
     from: planning
     to: executing
+  verifications_received:
+  - verify_file: discussions/enclaws/测试333666/003_zhangbo_verify_b01981.md
+    verified_at: '2026-05-12T16:08:21+08:00'
+    verified_by: zhangbo
+    judgement: passed
+    comment: '123'
+- file: discussions/enclaws/测试333666/003_zhangbo_verify_b01981.md
+  created_at: '2026-05-12T16:08:21+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: verify
+  summary: '123'
+  quote: discussions/enclaws/测试333666/002_zhangbo_act_4c036d.md
+  verifications:
+  - target: discussions/enclaws/测试333666/002_zhangbo_act_4c036d.md
+    judgement: passed
+    comment: '123'
