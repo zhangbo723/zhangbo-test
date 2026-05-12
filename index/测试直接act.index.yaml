@@ -2,7 +2,7 @@ version: 1
 matter:
   id: 测试直接act
   title: 测试直接act
-  current_status: planning
+  current_status: paused
   owner: zhangbo
   workgroup:
   - user_id: zhangbo
@@ -15,7 +15,7 @@ matter:
     roles: []
     user_ids: []
   created_at: '2026-05-12T15:02:46+08:00'
-  updated_at: '2026-05-12T15:33:37+08:00'
+  updated_at: '2026-05-12T15:34:22+08:00'
 timeline:
 - file: discussions/pivot/测试直接act/001_zhangbo_act_0c4693.md
   created_at: '2026-05-12T15:02:46+08:00'
@@ -50,3 +50,13 @@ timeline:
   status_change:
     from: paused
     to: planning
+- file: discussions/pivot/测试直接act/005_zhangbo_think_0f62c0.md
+  created_at: '2026-05-12T15:34:22+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 再次暂停
+  quote: discussions/pivot/测试直接act/001_zhangbo_act_0c4693.md
+  status_change:
+    from: planning
+    to: paused
