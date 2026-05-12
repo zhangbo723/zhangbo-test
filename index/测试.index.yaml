@@ -2,10 +2,10 @@ version: 1
 matter:
   id: 测试
   title: 测试
-  current_status: planning
+  current_status: executing
   owner: tank
   created_at: '2026-05-06T16:55:13+08:00'
-  updated_at: '2026-05-06T17:25:55+08:00'
+  updated_at: '2026-05-12T11:17:38+08:00'
 timeline:
 - file: discussions/enclaws/测试/001_zhangbo_think_4886b1.md
   created_at: '2026-05-06T16:55:13+08:00'
@@ -13,21 +13,31 @@ timeline:
   owner: zhangbo
   type: think
   summary: 本文为测试占位内容，暂无实质讨论或明确结论。
-  comments:
+  mentions:
   - created_at: '2026-05-06T19:10:09+08:00'
     body: '111'
-    mentions:
-    - tank
     author: zhangbo
+    targets:
+    - tank
   - created_at: '2026-05-06T19:13:47+08:00'
     body: '2222'
-    mentions:
+    author: zhangbo
+    targets:
     - tank
     - zhangbo
-    author: zhangbo
 - type: owner_change
   created_at: '2026-05-06T17:25:55+08:00'
   actor: zhangbo
   from_owner: zhangbo
   to_owner: tank
   reason: aaa
+- file: discussions/enclaws/测试/002_zhangbo_act_7f44c3.md
+  created_at: '2026-05-12T11:17:38+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: act
+  summary: '213'
+  quote: discussions/enclaws/测试/001_zhangbo_think_4886b1.md
+  status_change:
+    from: planning
+    to: executing
