@@ -2,10 +2,10 @@ version: 1
 matter:
   id: 测试
   title: 测试
-  current_status: executing
+  current_status: cancelled
   owner: tank
   created_at: '2026-05-06T16:55:13+08:00'
-  updated_at: '2026-05-12T11:17:38+08:00'
+  updated_at: '2026-05-12T11:17:58+08:00'
 timeline:
 - file: discussions/enclaws/测试/001_zhangbo_think_4886b1.md
   created_at: '2026-05-06T16:55:13+08:00'
@@ -41,3 +41,13 @@ timeline:
   status_change:
     from: planning
     to: executing
+- file: discussions/enclaws/测试/003_zhangbo_result_0965f6.md
+  created_at: '2026-05-12T11:17:58+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: result
+  summary: '1'
+  outcome: cancelled
+  status_change:
+    from: executing
+    to: cancelled
