@@ -1,0 +1,25 @@
+version: 1
+matter:
+  id: 实现登录功能
+  title: 实现登录功能
+  current_status: planning
+  owner: tank
+  workgroup:
+  - user_id: tank
+    role: 项目负责人
+    is_owner: true
+    added_at: '2026-05-13T17:56:12+08:00'
+    added_by: tank
+  visibility:
+    mode: public
+    roles: []
+    user_ids: []
+  created_at: '2026-05-13T17:56:12+08:00'
+  updated_at: '2026-05-13T17:56:12+08:00'
+timeline:
+- file: discussions/pivot/实现登录功能/001_tank_think_6d7d7f.md
+  created_at: '2026-05-13T17:56:12+08:00'
+  creator: tank
+  owner: tank
+  type: think
+  summary: 完成登录功能
