@@ -2,7 +2,7 @@ version: 1
 matter:
   id: 实现登录功能
   title: 实现登录功能
-  current_status: planning
+  current_status: executing
   owner: tank
   workgroup:
   - user_id: tank
@@ -15,7 +15,7 @@ matter:
     roles: []
     user_ids: []
   created_at: '2026-05-13T17:56:12+08:00'
-  updated_at: '2026-05-13T17:56:12+08:00'
+  updated_at: '2026-05-13T17:56:36+08:00'
 timeline:
 - file: discussions/pivot/实现登录功能/001_tank_think_6d7d7f.md
   created_at: '2026-05-13T17:56:12+08:00'
@@ -23,3 +23,13 @@ timeline:
   owner: tank
   type: think
   summary: 完成登录功能
+- file: discussions/pivot/实现登录功能/002_tank_act_bb13ba.md
+  created_at: '2026-05-13T17:56:36+08:00'
+  creator: tank
+  owner: tank
+  type: act
+  summary: 已经完成了60%的功能。明天能开始测试
+  quote: discussions/pivot/实现登录功能/001_tank_think_6d7d7f.md
+  status_change:
+    from: planning
+    to: executing
