@@ -1,0 +1,25 @@
+version: 1
+matter:
+  id: 实现多租户改造
+  title: 实现多租户改造
+  current_status: planning
+  owner: zhangbo
+  workgroup:
+  - user_id: zhangbo
+    role: 项目负责人
+    is_owner: true
+    added_at: '2026-05-13T17:57:19+08:00'
+    added_by: zhangbo
+  visibility:
+    mode: public
+    roles: []
+    user_ids: []
+  created_at: '2026-05-13T17:57:19+08:00'
+  updated_at: '2026-05-13T17:57:19+08:00'
+timeline:
+- file: discussions/pivot/实现多租户改造/001_zhangbo_think_0c8611.md
+  created_at: '2026-05-13T17:57:19+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: 实现多租户改造
