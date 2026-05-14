@@ -1,0 +1,25 @@
+version: 1
+matter:
+  id: aaa
+  title: aaa
+  current_status: planning
+  owner: zhangbo
+  workgroup:
+  - user_id: zhangbo
+    role: 项目负责人
+    is_owner: true
+    added_at: '2026-05-14T11:35:13+08:00'
+    added_by: zhangbo
+  visibility:
+    mode: public
+    roles: []
+    user_ids: []
+  created_at: '2026-05-14T11:35:13+08:00'
+  updated_at: '2026-05-14T11:35:13+08:00'
+timeline:
+- file: discussions/pivot/aaa/001_zhangbo_think_9a3e68.md
+  created_at: '2026-05-14T11:35:13+08:00'
+  creator: zhangbo
+  owner: zhangbo
+  type: think
+  summary: aaa
